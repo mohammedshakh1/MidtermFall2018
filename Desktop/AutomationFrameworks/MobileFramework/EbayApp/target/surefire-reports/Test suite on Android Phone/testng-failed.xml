@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Test suite on Android Phone]">
+  <parameter name="deviceType" value="Emulator"/>
+  <parameter name="OS" value="Android"/>
+  <parameter name="appName" value="ebay.apk"/>
+  <parameter name="platformType" value="Phone"/>
+  <parameter name="moduleName" value="GoogleMap"/>
+  <parameter name="deviceName" value="Android Emulator"/>
+  <parameter name="version" value="9"/>
+  <test name="Home page">
+    <classes>
+      <class name="testCases.EbayHomeTest"/>
+      <class name="testCases.EbayBatPageTest"/>
+      <class name="testCases.EbaySignInpageTest"/>
+    </classes>
+  </test> <!-- Home page -->
+  <test name="Home page(failed)">
+    <classes>
+      <class name="testCases.EbaySignInpageTest">
+        <methods>
+          <include name="signInTest"/>
+        </methods>
+      </class> <!-- testCases.EbaySignInpageTest -->
+      <class name="testCases.EbayBatPageTest">
+        <methods>
+          <include name="filtertest"/>
+          <include name="cartTest"/>
+          <include name="sortTest"/>
+          <include name="imageSearchTest"/>
+        </methods>
+      </class> <!-- testCases.EbayBatPageTest -->
+      <class name="testCases.EbayHomeTest">
+        <methods>
+          <include name="categoryTest"/>
+          <include name="ebayLogoTest"/>
+          <include name="tendingTest"/>
+          <include name="homeTest"/>
+          <include name="extentSetup"/>
+          <include name="cricTest"/>
+          <include name="saleTextTest"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- testCases.EbayHomeTest -->
+    </classes>
+  </test> <!-- Home page(failed) -->
+</suite> <!-- Failed suite [Test suite on Android Phone] -->

@@ -1,0 +1,15 @@
+pagefactory/WebPage/Web.class
+pagefactory/ButtonsPage/Buttons.class
+pagefactory/TransitionsPage/Transitions.class
+pagefactory/ToolbarPage/Toolbar.class
+pagefactory/TextFieldsPage/TextFields.class
+pagefactory/PickersPage/Picker.class
+pagefactory/HomePage/Homepage.class
+pagefactory/SearchBarPage/SearchBar.class
+pagefactory/AlertsPage/Alerts.class
+pagefactory/SegmentsPage/Segments.class
+pagefactory/NavigateUi.class
+pagefactory/ControlsPage/Controls.class
+pagefactory/UiCatalogPage/UiCatalog.class
+pagefactory/TextViewPage/TextView.class
+pagefactory/ImgesPage/Images.class

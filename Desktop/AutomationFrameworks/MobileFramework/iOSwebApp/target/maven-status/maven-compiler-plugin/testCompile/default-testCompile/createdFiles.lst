@@ -1,0 +1,5 @@
+pageClasses/AmazonHomePage.class
+testClasses/SauceLabHomeTest.class
+application/page/base/ApplicationPageBase.class
+pageClasses/SauceLabHome.class
+testClasses/AmazonHomePageTest.class

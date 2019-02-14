@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Test suite on Android Phone Of Amazon Mobile Web]">
+  <parameter name="deviceType" value="Emulator"/>
+  <parameter name="OS" value="Android"/>
+  <parameter name="platformType" value="Phone"/>
+  <parameter name="browserName" value="Chrome"/>
+  <parameter name="deviceName" value="Android Emulator"/>
+  <parameter name="version" value="9"/>
+  <parameter name="url" value="https://www.amazon.com/"/>
+  <test name="Amazon Home Page">
+    <classes>
+      <class name="testClasses.AmazonHomePageTest"/>
+      <class name="testClasses.AmazonSignInTest"/>
+    </classes>
+  </test> <!-- Amazon Home Page -->
+  <test name="Amazon Home Page(failed)">
+    <classes>
+      <class name="testClasses.AmazonHomePageTest">
+        <methods>
+          <include name="signInTest"/>
+          <include name="videoTextTest"/>
+          <include name="extentSetup"/>
+          <include name="dealTextTest"/>
+          <include name="musicTextTest"/>
+          <include name="wholeFoodTextTest"/>
+          <include name="setUp"/>
+          <include name="freshTextTest"/>
+          <include name="primeTextTest"/>
+        </methods>
+      </class> <!-- testClasses.AmazonHomePageTest -->
+      <class name="testClasses.AmazonSignInTest">
+        <methods>
+          <include name="emailBoxVerificationTest"/>
+          <include name="secondaryCreateAccountVerificationTest"/>
+          <include name="forgotPasswordTest"/>
+          <include name="logInIcontextTest"/>
+          <include name="createAccountVerificationTest"/>
+          <include name="secondaryLogInIcontextTest"/>
+        </methods>
+      </class> <!-- testClasses.AmazonSignInTest -->
+    </classes>
+  </test> <!-- Amazon Home Page(failed) -->
+</suite> <!-- Failed suite [Test suite on Android Phone Of Amazon Mobile Web] -->

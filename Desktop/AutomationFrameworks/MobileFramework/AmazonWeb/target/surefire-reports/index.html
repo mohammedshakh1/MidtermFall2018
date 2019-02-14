@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Test_suite_on_Android_Phone_Of_Amazon_Mobile_Web">
+              <span class="suite-name border-skipped">Test suite on Android Phone Of Amazon Mobile Web</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Test_suite_on_Android_Phone_Of_Amazon_Mobile_Web">
+                    <span>AmazonMobileWebTest.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Test_suite_on_Android_Phone_Of_Amazon_Mobile_Web">
+                    <span class="test-stats">2 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Test_suite_on_Android_Phone_Of_Amazon_Mobile_Web">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Test_suite_on_Android_Phone_Of_Amazon_Mobile_Web">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Test_suite_on_Android_Phone_Of_Amazon_Mobile_Web">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Test_suite_on_Android_Phone_Of_Amazon_Mobile_Web">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Test_suite_on_Android_Phone_Of_Amazon_Mobile_Web">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">13 methods,  13 skipped,  </span>
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Test_suite_on_Android_Phone_Of_Amazon_Mobile_Web" class="hide-methods skipped suite-Test_suite_on_Android_Phone_Of_Amazon_Mobile_Web"> (hide)</a> <!-- hide-methods skipped suite-Test_suite_on_Android_Phone_Of_Amazon_Mobile_Web -->
+                      <a href="#" panel-name="suite-Test_suite_on_Android_Phone_Of_Amazon_Mobile_Web" class="show-methods skipped suite-Test_suite_on_Android_Phone_Of_Amazon_Mobile_Web"> (show)</a> <!-- show-methods skipped suite-Test_suite_on_Android_Phone_Of_Amazon_Mobile_Web -->
+                    </span>
+                    <div class="method-list-content skipped suite-Test_suite_on_Android_Phone_Of_Amazon_Mobile_Web">
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test_suite_on_Android_Phone_Of_Amazon_Mobile_Web" title="testClasses.AmazonSignInTest" hash-for-method="createAccountVerificationTest">createAccountVerificationTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test_suite_on_Android_Phone_Of_Amazon_Mobile_Web" title="testClasses.AmazonHomePageTest" hash-for-method="dealTextTest">dealTextTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test_suite_on_Android_Phone_Of_Amazon_Mobile_Web" title="testClasses.AmazonSignInTest" hash-for-method="emailBoxVerificationTest">emailBoxVerificationTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test_suite_on_Android_Phone_Of_Amazon_Mobile_Web" title="testClasses.AmazonSignInTest" hash-for-method="forgotPasswordTest">forgotPasswordTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test_suite_on_Android_Phone_Of_Amazon_Mobile_Web" title="testClasses.AmazonHomePageTest" hash-for-method="freshTextTest">freshTextTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test_suite_on_Android_Phone_Of_Amazon_Mobile_Web" title="testClasses.AmazonSignInTest" hash-for-method="logInIcontextTest">logInIcontextTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test_suite_on_Android_Phone_Of_Amazon_Mobile_Web" title="testClasses.AmazonHomePageTest" hash-for-method="musicTextTest">musicTextTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test_suite_on_Android_Phone_Of_Amazon_Mobile_Web" title="testClasses.AmazonHomePageTest" hash-for-method="primeTextTest">primeTextTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test_suite_on_Android_Phone_Of_Amazon_Mobile_Web" title="testClasses.AmazonSignInTest" hash-for-method="secondaryCreateAccountVerificationTest">secondaryCreateAccountVerificationTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test_suite_on_Android_Phone_Of_Amazon_Mobile_Web" title="testClasses.AmazonSignInTest" hash-for-method="secondaryLogInIcontextTest">secondaryLogInIcontextTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test_suite_on_Android_Phone_Of_Amazon_Mobile_Web" title="testClasses.AmazonHomePageTest" hash-for-method="signInTest">signInTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test_suite_on_Android_Phone_Of_Amazon_Mobile_Web" title="testClasses.AmazonHomePageTest" hash-for-method="videoTextTest">videoTextTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test_suite_on_Android_Phone_Of_Amazon_Mobile_Web" title="testClasses.AmazonHomePageTest" hash-for-method="wholeFoodTextTest">wholeFoodTextTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-Test_suite_on_Android_Phone_Of_Amazon_Mobile_Web -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Test_suite_on_Android_Phone_Of_Amazon_Mobile_Web" class="panel Test_suite_on_Android_Phone_Of_Amazon_Mobile_Web">
+          <div class="suite-Test_suite_on_Android_Phone_Of_Amazon_Mobile_Web-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">testClasses.AmazonHomePageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="dealTextTest">
+                  </a> <!-- dealTextTest -->
+                  <span class="method-name">dealTextTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="freshTextTest">
+                  </a> <!-- freshTextTest -->
+                  <span class="method-name">freshTextTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="musicTextTest">
+                  </a> <!-- musicTextTest -->
+                  <span class="method-name">musicTextTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="primeTextTest">
+                  </a> <!-- primeTextTest -->
+                  <span class="method-name">primeTextTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="signInTest">
+                  </a> <!-- signInTest -->
+                  <span class="method-name">signInTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="videoTextTest">
+                  </a> <!-- videoTextTest -->
+                  <span class="method-name">videoTextTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="wholeFoodTextTest">
+                  </a> <!-- wholeFoodTextTest -->
+                  <span class="method-name">wholeFoodTextTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Test_suite_on_Android_Phone_Of_Amazon_Mobile_Web-class-skipped -->
+          <div class="suite-Test_suite_on_Android_Phone_Of_Amazon_Mobile_Web-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">testClasses.AmazonSignInTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="createAccountVerificationTest">
+                  </a> <!-- createAccountVerificationTest -->
+                  <span class="method-name">createAccountVerificationTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="emailBoxVerificationTest">
+                  </a> <!-- emailBoxVerificationTest -->
+                  <span class="method-name">emailBoxVerificationTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="forgotPasswordTest">
+                  </a> <!-- forgotPasswordTest -->
+                  <span class="method-name">forgotPasswordTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="logInIcontextTest">
+                  </a> <!-- logInIcontextTest -->
+                  <span class="method-name">logInIcontextTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="secondaryCreateAccountVerificationTest">
+                  </a> <!-- secondaryCreateAccountVerificationTest -->
+                  <span class="method-name">secondaryCreateAccountVerificationTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="secondaryLogInIcontextTest">
+                  </a> <!-- secondaryLogInIcontextTest -->
+                  <span class="method-name">secondaryLogInIcontextTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Test_suite_on_Android_Phone_Of_Amazon_Mobile_Web-class-skipped -->
+        </div> <!-- panel Test_suite_on_Android_Phone_Of_Amazon_Mobile_Web -->
+        <div panel-name="test-xml-Test_suite_on_Android_Phone_Of_Amazon_Mobile_Web" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">/Users/asif/Desktop/AutomationFrameworks/MobileFramework/AmazonWeb/target/test-classes/AmazonMobileWebTest.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;Test suite on Android Phone Of Amazon Mobile Web&quot;&gt;
+  &lt;parameter name=&quot;deviceType&quot; value=&quot;Emulator&quot;/&gt;
+  &lt;parameter name=&quot;OS&quot; value=&quot;Android&quot;/&gt;
+  &lt;parameter name=&quot;platformType&quot; value=&quot;Phone&quot;/&gt;
+  &lt;parameter name=&quot;browserName&quot; value=&quot;Chrome&quot;/&gt;
+  &lt;parameter name=&quot;deviceName&quot; value=&quot;Android Emulator&quot;/&gt;
+  &lt;parameter name=&quot;version&quot; value=&quot;9&quot;/&gt;
+  &lt;parameter name=&quot;url&quot; value=&quot;https://www.amazon.com/&quot;/&gt;
+  &lt;test name=&quot;Amazon Home Page&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testClasses.AmazonHomePageTest&quot;/&gt;
+      &lt;class name=&quot;testClasses.AmazonSignInTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Amazon Home Page --&gt;
+  &lt;test name=&quot;Amazon Home Page(failed)&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testClasses.AmazonHomePageTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;signInTest&quot;/&gt;
+          &lt;include name=&quot;videoTextTest&quot;/&gt;
+          &lt;include name=&quot;extentSetup&quot;/&gt;
+          &lt;include name=&quot;dealTextTest&quot;/&gt;
+          &lt;include name=&quot;musicTextTest&quot;/&gt;
+          &lt;include name=&quot;wholeFoodTextTest&quot;/&gt;
+          &lt;include name=&quot;setUp&quot;/&gt;
+          &lt;include name=&quot;freshTextTest&quot;/&gt;
+          &lt;include name=&quot;primeTextTest&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- testClasses.AmazonHomePageTest --&gt;
+      &lt;class name=&quot;testClasses.AmazonSignInTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;emailBoxVerificationTest&quot;/&gt;
+          &lt;include name=&quot;secondaryCreateAccountVerificationTest&quot;/&gt;
+          &lt;include name=&quot;forgotPasswordTest&quot;/&gt;
+          &lt;include name=&quot;logInIcontextTest&quot;/&gt;
+          &lt;include name=&quot;createAccountVerificationTest&quot;/&gt;
+          &lt;include name=&quot;secondaryLogInIcontextTest&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- testClasses.AmazonSignInTest --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Amazon Home Page(failed) --&gt;
+&lt;/suite&gt; &lt;!-- Test suite on Android Phone Of Amazon Mobile Web --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Test_suite_on_Android_Phone_Of_Amazon_Mobile_Web" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Test suite on Android Phone Of Amazon Mobile Web</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Amazon Home Page (2 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">Amazon Home Page(failed) (2 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Test_suite_on_Android_Phone_Of_Amazon_Mobile_Web" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Test suite on Android Phone Of Amazon Mobile Web</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Test_suite_on_Android_Phone_Of_Amazon_Mobile_Web" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Test suite on Android Phone Of Amazon Mobile Web</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Test_suite_on_Android_Phone_Of_Amazon_Mobile_Web');
+function tableData_Test_suite_on_Android_Phone_Of_Amazon_Mobile_Web() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(13);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'dealTextTest')
+data.setCell(0, 2, 'testClasses.AmazonHomePageTest')
+data.setCell(0, 3, 1);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'logInIcontextTest')
+data.setCell(1, 2, 'testClasses.AmazonSignInTest')
+data.setCell(1, 3, 0);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'wholeFoodTextTest')
+data.setCell(2, 2, 'testClasses.AmazonHomePageTest')
+data.setCell(2, 3, 0);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'freshTextTest')
+data.setCell(3, 2, 'testClasses.AmazonHomePageTest')
+data.setCell(3, 3, 0);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'secondaryLogInIcontextTest')
+data.setCell(4, 2, 'testClasses.AmazonSignInTest')
+data.setCell(4, 3, 0);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'primeTextTest')
+data.setCell(5, 2, 'testClasses.AmazonHomePageTest')
+data.setCell(5, 3, 0);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'signInTest')
+data.setCell(6, 2, 'testClasses.AmazonHomePageTest')
+data.setCell(6, 3, 0);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'emailBoxVerificationTest')
+data.setCell(7, 2, 'testClasses.AmazonSignInTest')
+data.setCell(7, 3, 0);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'videoTextTest')
+data.setCell(8, 2, 'testClasses.AmazonHomePageTest')
+data.setCell(8, 3, 0);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'createAccountVerificationTest')
+data.setCell(9, 2, 'testClasses.AmazonSignInTest')
+data.setCell(9, 3, 0);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'forgotPasswordTest')
+data.setCell(10, 2, 'testClasses.AmazonSignInTest')
+data.setCell(10, 3, 0);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'musicTextTest')
+data.setCell(11, 2, 'testClasses.AmazonHomePageTest')
+data.setCell(11, 3, 0);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'secondaryCreateAccountVerificationTest')
+data.setCell(12, 2, 'testClasses.AmazonSignInTest')
+data.setCell(12, 3, 0);
+window.suiteTableData['Test_suite_on_Android_Phone_Of_Amazon_Mobile_Web']= { tableData: data, tableDiv: 'times-div-Test_suite_on_Android_Phone_Of_Amazon_Mobile_Web'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 ms</span>
+              <div id="times-div-Test_suite_on_Android_Phone_Of_Amazon_Mobile_Web">
+              </div> <!-- times-div-Test_suite_on_Android_Phone_Of_Amazon_Mobile_Web -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Test_suite_on_Android_Phone_Of_Amazon_Mobile_Web" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Test suite on Android Phone Of Amazon Mobile Web</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Test_suite_on_Android_Phone_Of_Amazon_Mobile_Web" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">2 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testClasses.AmazonSignInTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">generateReport</span>
+                <br/>
+                <span class="ignored-method-name">extentSetup</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Test_suite_on_Android_Phone_Of_Amazon_Mobile_Web" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">testClasses.AmazonHomePageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">extentSetup(org.testng.TestRunner@576d5deb)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-method before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">setUp(Android, mobile, Emulator, Android Emulator, 9, , , Chrome, Phone, https://www.amazon.com/)</span>
+                <span class="method-start">196 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">dealTextTest</span>
+                <span class="method-start">608 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">freshTextTest</span>
+                <span class="method-start">610 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">musicTextTest</span>
+                <span class="method-start">611 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">primeTextTest</span>
+                <span class="method-start">612 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">signInTest</span>
+                <span class="method-start">613 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">videoTextTest</span>
+                <span class="method-start">614 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">wholeFoodTextTest</span>
+                <span class="method-start">615 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testClasses.AmazonSignInTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">createAccountVerificationTest</span>
+                <span class="method-start">617 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">emailBoxVerificationTest</span>
+                <span class="method-start">621 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">forgotPasswordTest</span>
+                <span class="method-start">622 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">logInIcontextTest</span>
+                <span class="method-start">623 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">secondaryCreateAccountVerificationTest</span>
+                <span class="method-start">624 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">secondaryLogInIcontextTest</span>
+                <span class="method-start">625 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

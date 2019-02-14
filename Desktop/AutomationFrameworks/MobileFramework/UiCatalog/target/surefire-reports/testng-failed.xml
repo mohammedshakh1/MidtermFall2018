@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" verbose="0" name="Failed suite [Surefire suite]">
+  <test name="Surefire test">
+    <classes>
+      <class name="iPhone.PickerTest"/>
+      <class name="iPhone.AlertsTest"/>
+      <class name="iPhone.Button2Test"/>
+      <class name="iPhone.SegmentTest"/>
+      <class name="iPhone.ControlTest"/>
+      <class name="iPhone.ButtonTest"/>
+      <class name="iPhone.TextFieldsTest"/>
+      <class name="iPhone.ImageTest"/>
+    </classes>
+  </test> <!-- Surefire test -->
+  <test name="Surefire test(failed)">
+    <classes>
+      <class name="iPhone.PickerTest">
+        <methods>
+          <include name="testUIPicker"/>
+          <include name="extentSetup"/>
+          <include name="testDatePicker"/>
+          <include name="startExtent"/>
+          <include name="setUp"/>
+          <include name="afterEachTestMethod"/>
+        </methods>
+      </class> <!-- iPhone.PickerTest -->
+      <class name="iPhone.TextFieldsTest">
+        <methods>
+          <include name="navigate"/>
+        </methods>
+      </class> <!-- iPhone.TextFieldsTest -->
+      <class name="iPhone.ControlTest">
+        <methods>
+          <include name="controlTextTest"/>
+        </methods>
+      </class> <!-- iPhone.ControlTest -->
+      <class name="iPhone.Button2Test">
+        <methods>
+          <include name="buttonTest"/>
+        </methods>
+      </class> <!-- iPhone.Button2Test -->
+      <class name="iPhone.ImageTest">
+        <methods>
+          <include name="imageTextTest"/>
+        </methods>
+      </class> <!-- iPhone.ImageTest -->
+      <class name="iPhone.SegmentTest">
+        <methods>
+          <include name="SegmentTest"/>
+        </methods>
+      </class> <!-- iPhone.SegmentTest -->
+      <class name="iPhone.ButtonTest">
+        <methods>
+          <include name="navigate"/>
+        </methods>
+      </class> <!-- iPhone.ButtonTest -->
+      <class name="iPhone.AlertsTest">
+        <methods>
+          <include name="testActionSheetCustom"/>
+          <include name="testSecureInput"/>
+          <include name="testActionSheetSimple"/>
+          <include name="testAlertCustom"/>
+          <include name="testAlertOkCancel"/>
+          <include name="testActionSheetOkCancel"/>
+          <include name="testAlertSimple"/>
+        </methods>
+      </class> <!-- iPhone.AlertsTest -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->

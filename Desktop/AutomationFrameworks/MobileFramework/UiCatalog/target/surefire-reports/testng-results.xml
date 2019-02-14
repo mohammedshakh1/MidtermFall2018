@@ -1,0 +1,444 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="14" failed="1" total="15" passed="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Extent Report directory: /Users/asif/Desktop/AutomationFrameworks/MobileFramework/UiCatalog/target/surefire-reports/html]]>
+    </line>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="321" started-at="2019-02-06T00:33:00Z" finished-at="2019-02-06T00:33:00Z">
+    <groups>
+    </groups>
+    <test name="Surefire test" duration-ms="321" started-at="2019-02-06T00:33:00Z" finished-at="2019-02-06T00:33:00Z">
+      <class name="iPhone.ControlTest">
+        <test-method status="SKIP" signature="controlTextTest()[pri:0, instance:iPhone.ControlTest@59fa1d9b]" name="controlTextTest" duration-ms="0" started-at="2019-02-05T19:33:00Z" finished-at="2019-02-05T19:33:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- controlTextTest -->
+        <test-method status="SKIP" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:iPhone.ControlTest@59fa1d9b]" name="startExtent" is-config="true" duration-ms="0" started-at="2019-02-05T19:33:00Z" finished-at="2019-02-05T19:33:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="SKIP" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:iPhone.ControlTest@59fa1d9b]" name="afterEachTestMethod" is-config="true" duration-ms="0" started-at="2019-02-05T19:33:00Z" finished-at="2019-02-05T19:33:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="SKIP" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:iPhone.ControlTest@59fa1d9b]" name="setUp" is-config="true" duration-ms="0" started-at="2019-02-05T19:33:00Z" finished-at="2019-02-05T19:33:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="SKIP" signature="inIt()[pri:0, instance:iPhone.ControlTest@59fa1d9b]" name="inIt" is-config="true" duration-ms="0" started-at="2019-02-05T19:33:00Z" finished-at="2019-02-05T19:33:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inIt -->
+      </class> <!-- iPhone.ControlTest -->
+      <class name="iPhone.Button2Test">
+        <test-method status="SKIP" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:iPhone.Button2Test@46d56d67]" name="setUp" is-config="true" duration-ms="0" started-at="2019-02-05T19:33:00Z" finished-at="2019-02-05T19:33:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="SKIP" signature="buttonTest()[pri:0, instance:iPhone.Button2Test@46d56d67]" name="buttonTest" duration-ms="0" started-at="2019-02-05T19:33:00Z" finished-at="2019-02-05T19:33:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- buttonTest -->
+        <test-method status="SKIP" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:iPhone.Button2Test@46d56d67]" name="startExtent" is-config="true" duration-ms="0" started-at="2019-02-05T19:33:00Z" finished-at="2019-02-05T19:33:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="SKIP" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:iPhone.Button2Test@46d56d67]" name="afterEachTestMethod" is-config="true" duration-ms="0" started-at="2019-02-05T19:33:00Z" finished-at="2019-02-05T19:33:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+      </class> <!-- iPhone.Button2Test -->
+      <class name="iPhone.ButtonTest">
+        <test-method status="SKIP" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:iPhone.ButtonTest@28d25987]" name="afterEachTestMethod" is-config="true" duration-ms="0" started-at="2019-02-05T19:33:00Z" finished-at="2019-02-05T19:33:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="SKIP" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:iPhone.ButtonTest@28d25987]" name="setUp" is-config="true" duration-ms="0" started-at="2019-02-05T19:33:00Z" finished-at="2019-02-05T19:33:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="SKIP" signature="navigate()[pri:0, instance:iPhone.ButtonTest@28d25987]" name="navigate" duration-ms="0" started-at="2019-02-05T19:33:00Z" finished-at="2019-02-05T19:33:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigate -->
+        <test-method status="SKIP" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:iPhone.ButtonTest@28d25987]" name="startExtent" is-config="true" duration-ms="0" started-at="2019-02-05T19:33:00Z" finished-at="2019-02-05T19:33:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+      </class> <!-- iPhone.ButtonTest -->
+      <class name="iPhone.AlertsTest">
+        <test-method status="SKIP" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:iPhone.AlertsTest@14acaea5]" name="setUp" is-config="true" duration-ms="0" started-at="2019-02-05T19:33:00Z" finished-at="2019-02-05T19:33:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="SKIP" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:iPhone.AlertsTest@14acaea5]" name="startExtent" is-config="true" duration-ms="0" started-at="2019-02-05T19:33:00Z" finished-at="2019-02-05T19:33:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="SKIP" signature="testActionSheetCustom()[pri:0, instance:iPhone.AlertsTest@14acaea5]" name="testActionSheetCustom" duration-ms="0" started-at="2019-02-05T19:33:00Z" finished-at="2019-02-05T19:33:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testActionSheetCustom -->
+        <test-method status="SKIP" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:iPhone.AlertsTest@14acaea5]" name="setUp" is-config="true" duration-ms="0" started-at="2019-02-05T19:33:00Z" finished-at="2019-02-05T19:33:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="SKIP" signature="testActionSheetOkCancel()[pri:0, instance:iPhone.AlertsTest@14acaea5]" name="testActionSheetOkCancel" duration-ms="0" started-at="2019-02-05T19:33:00Z" finished-at="2019-02-05T19:33:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testActionSheetOkCancel -->
+        <test-method status="SKIP" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:iPhone.AlertsTest@14acaea5]" name="afterEachTestMethod" is-config="true" duration-ms="0" started-at="2019-02-05T19:33:00Z" finished-at="2019-02-05T19:33:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="SKIP" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:iPhone.AlertsTest@14acaea5]" name="setUp" is-config="true" duration-ms="0" started-at="2019-02-05T19:33:00Z" finished-at="2019-02-05T19:33:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="SKIP" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:iPhone.AlertsTest@14acaea5]" name="startExtent" is-config="true" duration-ms="0" started-at="2019-02-05T19:33:00Z" finished-at="2019-02-05T19:33:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="SKIP" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:iPhone.AlertsTest@14acaea5]" name="afterEachTestMethod" is-config="true" duration-ms="0" started-at="2019-02-05T19:33:00Z" finished-at="2019-02-05T19:33:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="SKIP" signature="testActionSheetSimple()[pri:0, instance:iPhone.AlertsTest@14acaea5]" name="testActionSheetSimple" duration-ms="0" started-at="2019-02-05T19:33:00Z" finished-at="2019-02-05T19:33:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testActionSheetSimple -->
+        <test-method status="SKIP" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:iPhone.AlertsTest@14acaea5]" name="startExtent" is-config="true" duration-ms="0" started-at="2019-02-05T19:33:00Z" finished-at="2019-02-05T19:33:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="SKIP" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:iPhone.AlertsTest@14acaea5]" name="afterEachTestMethod" is-config="true" duration-ms="0" started-at="2019-02-05T19:33:00Z" finished-at="2019-02-05T19:33:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="SKIP" signature="testAlertCustom()[pri:0, instance:iPhone.AlertsTest@14acaea5]" name="testAlertCustom" duration-ms="0" started-at="2019-02-05T19:33:00Z" finished-at="2019-02-05T19:33:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAlertCustom -->
+        <test-method status="SKIP" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:iPhone.AlertsTest@14acaea5]" name="afterEachTestMethod" is-config="true" duration-ms="0" started-at="2019-02-05T19:33:00Z" finished-at="2019-02-05T19:33:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="SKIP" signature="testAlertOkCancel()[pri:0, instance:iPhone.AlertsTest@14acaea5]" name="testAlertOkCancel" duration-ms="0" started-at="2019-02-05T19:33:00Z" finished-at="2019-02-05T19:33:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAlertOkCancel -->
+        <test-method status="SKIP" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:iPhone.AlertsTest@14acaea5]" name="afterEachTestMethod" is-config="true" duration-ms="0" started-at="2019-02-05T19:33:00Z" finished-at="2019-02-05T19:33:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="SKIP" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:iPhone.AlertsTest@14acaea5]" name="setUp" is-config="true" duration-ms="0" started-at="2019-02-05T19:33:00Z" finished-at="2019-02-05T19:33:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="SKIP" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:iPhone.AlertsTest@14acaea5]" name="startExtent" is-config="true" duration-ms="0" started-at="2019-02-05T19:33:00Z" finished-at="2019-02-05T19:33:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="SKIP" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:iPhone.AlertsTest@14acaea5]" name="startExtent" is-config="true" duration-ms="0" started-at="2019-02-05T19:33:00Z" finished-at="2019-02-05T19:33:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="SKIP" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:iPhone.AlertsTest@14acaea5]" name="setUp" is-config="true" duration-ms="0" started-at="2019-02-05T19:33:00Z" finished-at="2019-02-05T19:33:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="SKIP" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:iPhone.AlertsTest@14acaea5]" name="setUp" is-config="true" duration-ms="0" started-at="2019-02-05T19:33:00Z" finished-at="2019-02-05T19:33:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="SKIP" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:iPhone.AlertsTest@14acaea5]" name="startExtent" is-config="true" duration-ms="0" started-at="2019-02-05T19:33:00Z" finished-at="2019-02-05T19:33:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="SKIP" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:iPhone.AlertsTest@14acaea5]" name="afterEachTestMethod" is-config="true" duration-ms="0" started-at="2019-02-05T19:33:00Z" finished-at="2019-02-05T19:33:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="SKIP" signature="testAlertSimple()[pri:0, instance:iPhone.AlertsTest@14acaea5]" name="testAlertSimple" duration-ms="0" started-at="2019-02-05T19:33:00Z" finished-at="2019-02-05T19:33:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAlertSimple -->
+        <test-method status="SKIP" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:iPhone.AlertsTest@14acaea5]" name="startExtent" is-config="true" duration-ms="0" started-at="2019-02-05T19:33:00Z" finished-at="2019-02-05T19:33:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="SKIP" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:iPhone.AlertsTest@14acaea5]" name="afterEachTestMethod" is-config="true" duration-ms="0" started-at="2019-02-05T19:33:00Z" finished-at="2019-02-05T19:33:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="SKIP" signature="testSecureInput()[pri:0, instance:iPhone.AlertsTest@14acaea5]" name="testSecureInput" duration-ms="0" started-at="2019-02-05T19:33:00Z" finished-at="2019-02-05T19:33:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSecureInput -->
+        <test-method status="SKIP" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:iPhone.AlertsTest@14acaea5]" name="setUp" is-config="true" duration-ms="0" started-at="2019-02-05T19:33:00Z" finished-at="2019-02-05T19:33:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+      </class> <!-- iPhone.AlertsTest -->
+      <class name="iPhone.SegmentTest">
+        <test-method status="SKIP" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:iPhone.SegmentTest@d8355a8]" name="startExtent" is-config="true" duration-ms="0" started-at="2019-02-05T19:33:00Z" finished-at="2019-02-05T19:33:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="SKIP" signature="inIt()[pri:0, instance:iPhone.SegmentTest@d8355a8]" name="inIt" is-config="true" duration-ms="0" started-at="2019-02-05T19:33:00Z" finished-at="2019-02-05T19:33:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inIt -->
+        <test-method status="SKIP" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:iPhone.SegmentTest@d8355a8]" name="setUp" is-config="true" duration-ms="0" started-at="2019-02-05T19:33:00Z" finished-at="2019-02-05T19:33:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="SKIP" signature="SegmentTest()[pri:0, instance:iPhone.SegmentTest@d8355a8]" name="SegmentTest" duration-ms="0" started-at="2019-02-05T19:33:00Z" finished-at="2019-02-05T19:33:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SegmentTest -->
+        <test-method status="SKIP" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:iPhone.SegmentTest@d8355a8]" name="afterEachTestMethod" is-config="true" duration-ms="0" started-at="2019-02-05T19:33:00Z" finished-at="2019-02-05T19:33:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+      </class> <!-- iPhone.SegmentTest -->
+      <class name="iPhone.PickerTest">
+        <test-method status="PASS" signature="extentSetup(org.testng.ITestContext)[pri:0, instance:iPhone.PickerTest@224edc67]" name="extentSetup" is-config="true" duration-ms="240" started-at="2019-02-05T19:32:59Z" finished-at="2019-02-05T19:33:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@e4487af]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Extent Report directory: /Users/asif/Desktop/AutomationFrameworks/MobileFramework/UiCatalog/target/surefire-reports/html]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- extentSetup -->
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:iPhone.PickerTest@224edc67]" name="setUp" is-config="true" duration-ms="3" started-at="2019-02-05T19:33:00Z" finished-at="2019-02-05T19:33:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[android]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[mobile]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[real device]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:iPhone.PickerTest@224edc67]" name="startExtent" is-config="true" duration-ms="16" started-at="2019-02-05T19:33:00Z" finished-at="2019-02-05T19:33:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void iPhone.PickerTest.testDatePicker()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="FAIL" signature="testDatePicker()[pri:0, instance:iPhone.PickerTest@224edc67]" name="testDatePicker" duration-ms="6" started-at="2019-02-05T19:33:00Z" finished-at="2019-02-05T19:33:00Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at pagefactory.UiCatalogPage.UiCatalog.page(UiCatalog.java:31)
+	at pagefactory.UiCatalogPage.UiCatalog.getPickers(UiCatalog.java:60)
+	at iPhone.PickerTest.picker(PickerTest.java:16)
+	at iPhone.PickerTest.testDatePicker(PickerTest.java:32)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:373)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:334)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:119)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:407)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDatePicker -->
+        <test-method status="FAIL" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:iPhone.PickerTest@224edc67]" name="afterEachTestMethod" is-config="true" duration-ms="0" started-at="2019-02-05T19:33:00Z" finished-at="2019-02-05T19:33:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testDatePicker status=FAILURE method=PickerTest.testDatePicker()[pri:0, instance:iPhone.PickerTest@224edc67] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at base.MobileAPI.captureScreenShot(MobileAPI.java:416)
+	at base.MobileAPI.afterEachTestMethod(MobileAPI.java:87)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:514)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:215)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:707)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:373)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:334)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:119)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:407)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="SKIP" signature="testUIPicker()[pri:0, instance:iPhone.PickerTest@224edc67]" name="testUIPicker" duration-ms="0" started-at="2019-02-05T19:33:00Z" finished-at="2019-02-05T19:33:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUIPicker -->
+        <test-method status="SKIP" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:iPhone.PickerTest@224edc67]" name="startExtent" is-config="true" duration-ms="0" started-at="2019-02-05T19:33:00Z" finished-at="2019-02-05T19:33:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="SKIP" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:iPhone.PickerTest@224edc67]" name="setUp" is-config="true" duration-ms="0" started-at="2019-02-05T19:33:00Z" finished-at="2019-02-05T19:33:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="SKIP" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:iPhone.PickerTest@224edc67]" name="afterEachTestMethod" is-config="true" duration-ms="0" started-at="2019-02-05T19:33:00Z" finished-at="2019-02-05T19:33:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="SKIP" signature="generateReport()[pri:0, instance:iPhone.PickerTest@224edc67]" name="generateReport" is-config="true" duration-ms="0" started-at="2019-02-05T19:33:00Z" finished-at="2019-02-05T19:33:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateReport -->
+      </class> <!-- iPhone.PickerTest -->
+      <class name="iPhone.TextFieldsTest">
+        <test-method status="SKIP" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:iPhone.TextFieldsTest@4501b7af]" name="afterEachTestMethod" is-config="true" duration-ms="0" started-at="2019-02-05T19:33:00Z" finished-at="2019-02-05T19:33:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="SKIP" signature="navigate()[pri:0, instance:iPhone.TextFieldsTest@4501b7af]" name="navigate" duration-ms="0" started-at="2019-02-05T19:33:00Z" finished-at="2019-02-05T19:33:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigate -->
+        <test-method status="SKIP" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:iPhone.TextFieldsTest@4501b7af]" name="setUp" is-config="true" duration-ms="0" started-at="2019-02-05T19:33:00Z" finished-at="2019-02-05T19:33:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="SKIP" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:iPhone.TextFieldsTest@4501b7af]" name="startExtent" is-config="true" duration-ms="0" started-at="2019-02-05T19:33:00Z" finished-at="2019-02-05T19:33:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+      </class> <!-- iPhone.TextFieldsTest -->
+      <class name="iPhone.ImageTest">
+        <test-method status="SKIP" signature="imageTextTest()[pri:0, instance:iPhone.ImageTest@523884b2]" name="imageTextTest" duration-ms="0" started-at="2019-02-05T19:33:00Z" finished-at="2019-02-05T19:33:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- imageTextTest -->
+        <test-method status="SKIP" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:iPhone.ImageTest@523884b2]" name="setUp" is-config="true" duration-ms="0" started-at="2019-02-05T19:33:00Z" finished-at="2019-02-05T19:33:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="SKIP" signature="inIt()[pri:0, instance:iPhone.ImageTest@523884b2]" name="inIt" is-config="true" duration-ms="0" started-at="2019-02-05T19:33:00Z" finished-at="2019-02-05T19:33:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inIt -->
+        <test-method status="SKIP" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:iPhone.ImageTest@523884b2]" name="afterEachTestMethod" is-config="true" duration-ms="0" started-at="2019-02-05T19:33:00Z" finished-at="2019-02-05T19:33:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="SKIP" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:iPhone.ImageTest@523884b2]" name="startExtent" is-config="true" duration-ms="0" started-at="2019-02-05T19:33:00Z" finished-at="2019-02-05T19:33:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+      </class> <!-- iPhone.ImageTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

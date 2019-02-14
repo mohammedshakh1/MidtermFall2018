@@ -1,0 +1,5 @@
+pageClasses/AmazonHomePage.class
+pageClasses/AmazonSignIn.class
+application/page/base/ApplicationPageBase.class
+testClasses/AmazonSignInTest.class
+testClasses/AmazonHomePageTest.class
